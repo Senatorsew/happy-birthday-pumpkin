@@ -20,6 +20,16 @@ h1 {
   text-shadow: 0 0 20px rgba(255,255,255,0.6), 0 0 30px #ff6b81;
 }
 
+.hero-image {
+  width: 150px;          /* small size */
+  height: 150px;
+  object-fit: cover;     /* keeps proportions inside circle */
+  border-radius: 50%;    /* makes it circular */
+  border: 4px solid #fff;
+  margin: 20px 0;
+  box-shadow: 0 0 15px rgba(255, 107, 129, 0.6); /* soft glow */
+}
+
 .pet-names {
   display: flex;
   flex-wrap: wrap;
