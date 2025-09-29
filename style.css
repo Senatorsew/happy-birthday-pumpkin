@@ -20,7 +20,7 @@ h1 {
   text-shadow: 0 0 20px rgba(255,255,255,0.6), 0 0 30px #ff6b81;
 }
 
-.hero-image {
+img {
   width: 150px;          /* small size */
   height: 150px;
   object-fit: cover;     /* keeps proportions inside circle */
